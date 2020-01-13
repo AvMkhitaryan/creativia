@@ -1,0 +1,92 @@
+#header {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+.hed-nav {
+    height: 60px;
+    margin-left: 50px;
+}
+
+.svg-div {
+    margin-left: 10%;
+}
+
+.nav-link-a {
+    font-size: 30px;
+    color: #bbbbbb;
+}
+
+.nav-link-a:hover {
+    color: white;
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
+}
+
+.col4-svg {
+    margin: -112px 0 0 0;
+}
+
+.col4-svg-p {
+    font-size: 30px;
+    margin: -100px 0px 0 63px;
+    color: white;
+}
+
+.prev-icon:hover {
+    color: red;
+}
+
+.next-icon:hover {
+    color: red;
+}
+
+.contacts {
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contantone {
+    color: white;
+    font-size: 35px;
+}
+
+.contanttwo {
+    color: red;
+    font-size: 35px;
+}
+
+.cent-p {
+    color: white;
+}
+.img-but{
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 5px;
+    padding: 5px;
+}
+.img-but:hover{
+    background-color: red;
+}
+.div-p{
+    margin-top: 10px;
+}
+
+.ab-cr-h4{
+    margin-top: 70px;
+}
+.ab-cr-h4-p{
+    color: red;
+}
+.about-creative-container{
+    padding-top:55px;
+}
