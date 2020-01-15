@@ -12,38 +12,48 @@
 <body>
 <header id="header" class="container-fluid d-flex">
     <div class="svg-div">
-        <svg class="col4-svg" viewBox="0 0 75 75" width="250px">
-            <path d="m5,22 18,-18 28,0 18,18 0,28 -18,18, -28,0 -18,-18z" stroke="red" stroke-width="2" fill="none"/>
-            <p class="col4-svg-p">Creativia</p>
-        </svg>
+        <div class='octagonWrap'>
+            <div class='octagon'></div>
+        </div>
+        <div>
+            <img id="oct-img-logo" src="img/Creativia.png" alt="LOGO">
+        </div>
     </div>
-    <nav class="navbar navbar-expand-sm justify-content-center d-flex flex-wrap hed-nav">
-        <ul class="navbar-nav d-flex flex-wrap">
-            <li class="nav-item nav-item-hover">
-                <a class="nav-link nav-link-a" href="#">HOME</a>
-            </li>
-            <li class="nav-item nav-item-hover">
-                <a class="nav-link nav-link-a" href="#">ABOUT US</a>
-            </li>
-            <li class="nav-item nav-item-hover">
-                <a class="nav-link nav-link-a" href="#">PORTFOLIO</a>
-            </li>
-            <li class="nav-item nav-item-hover">
-                <a class="nav-link nav-link-a" href="#">CLIENTS</a>
-            </li>
-            <li class="nav-item nav-item-hover">
-                <a class="nav-link nav-link-a" href="#">TEAM</a>
-            </li>
-            <li class="nav-item nav-item-hover">
-                <a class="nav-link nav-link-a" href="#">SERVICES</a>
-            </li>
-            <li class="nav-item nav-item-hover">
-                <a class="nav-link nav-link-a" href="#">BLOG</a>
-            </li>
-            <li class="nav-item nav-item-hover">
-                <a class="nav-link nav-link-a" href="#">CONTACT</a>
-            </li>
-        </ul>
+    <nav class="navbar navbar-expand-xl hed-nav">
+        <div class="hed-nav-class">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+                    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span> <i class="fa fa-inbox" style="color: red" aria-hidden="true"></i></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse left-div" id="basicExampleNav">
+            <ul class="navbar-nav d-flex flex-wrap">
+                <li class="nav-item nav-item-hover">
+                    <a class="nav-link nav-link-a" href="#">HOME</a>
+                </li>
+                <li class="nav-item nav-item-hover">
+                    <a class="nav-link nav-link-a" href="#">ABOUT US</a>
+                </li>
+                <li class="nav-item nav-item-hover">
+                    <a class="nav-link nav-link-a" href="#">PORTFOLIO</a>
+                </li>
+                <li class="nav-item nav-item-hover">
+                    <a class="nav-link nav-link-a" href="#">CLIENTS</a>
+                </li>
+                <li class="nav-item nav-item-hover">
+                    <a class="nav-link nav-link-a" href="#">TEAM</a>
+                </li>
+                <li class="nav-item nav-item-hover">
+                    <a class="nav-link nav-link-a" href="#">SERVICES</a>
+                </li>
+                <li class="nav-item nav-item-hover">
+                    <a class="nav-link nav-link-a" href="#">BLOG</a>
+                </li>
+                <li class="nav-item nav-item-hover">
+                    <a class="nav-link nav-link-a" href="#">CONTACT</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 </header>
 <main>
@@ -130,7 +140,6 @@
         </div>
         <p class="d-flex justify-content-center ab-cr-info-p">Lorem Ipsum is simply dummy text of the printing and
             typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-
         <div class="container about-creative-container">
             <div class="row">
                 <div class="col-lg-6 col-sm-12 ">
@@ -144,7 +153,7 @@
                             <div class="card">
                                 <div class="card-header" id="headingOne">
                                     <h2 class="mb-0">
-                                        <button type="button" class="btn btn-link accordion-button"
+                                        <button type="button" class="btn accordion-button"
                                                 data-toggle="collapse" data-target="#collapseOne"><i
                                                 class="fa fa-plus accordion-icons"></i>How is Creativia
                                         </button>
@@ -160,7 +169,7 @@
                             <div class="card">
                                 <div class="card-header" id="headingTwo">
                                     <h2 class="mb-0">
-                                        <button type="button" class="btn btn-link collapsed" data-toggle="collapse"
+                                        <button type="button" class="btn collapsed" data-toggle="collapse"
                                                 data-target="#collapseTwo"><i class="fa fa-plus accordion-icons"></i>Experiences
                                         </button>
                                     </h2>
@@ -175,7 +184,7 @@
                             <div class="card">
                                 <div class="card-header" id="headingThree">
                                     <h2 class="mb-0">
-                                        <button type="button" class="btn btn-link collapsed" data-toggle="collapse"
+                                        <button type="button" class="btn collapsed" data-toggle="collapse"
                                                 data-target="#collapseThree"><i class="fa fa-plus accordion-icons"></i>Learn
                                             more
                                         </button>
@@ -211,70 +220,125 @@
         </div>
         <div class="container">
             <div class="row d-flex justify-content-center">
-                <div class="col-xl-3 col-lg-6 d-flex justify-content-center hex-div">
-                    <div class="hexagon1"></div>
-                    <div class="hexagon1-1"></div>
-                    <div class="hexagon1-icon1">
-                        <i class="fa fa-heart hexagon1-icon fa-2x" aria-hidden="true"></i>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 d-flex justify-content-center hex-div">
-                    <div class="hexagon1"></div>
-                    <div class="hexagon1-1"></div>
-                    <div class="hexagon1-icon2">
-                        <i class="fa fa-check-square hexagon1-icon fa-2x" aria-hidden="true"></i>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 d-flex justify-content-center hex-div">
-                    <div>
-                        <div class="hexagon1"></div>
-                        <div class="hexagon1-1"></div>
-                        <div class="hexagon1-icon3">
-                            <i class="fa fa-mobile hexagon1-icon fa-3x" aria-hidden="true"></i>
+                <div class="col-xl-3 col-lg-6">
+                    <div class="hex-icon">
+                        <div class="hex-last-div">
+                            <div class="hexagon1"></div>
+                            <div class="hexagon1-1"></div>
+                        </div>
+                        <div class="conta-icons-div1">
+                            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
                         </div>
                     </div>
-                    <!--                    <div>-->
-                    <!--                        <h4>FLAT DESIGN</h4>-->
-                    <!--                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the </p>-->
-                    <!--                    </div>-->
-
+                    <div class="cont-h4-p">
+                        <h4 class="d-flex justify-content-center">Flat Design</h4>
+                        <p class="cont-p"> lorem lpsum dolor sit amet cras vitae sodales ac nec prellentesque vivamus
+                            eget mauris fusce sit amet</p>
+                    </div>
                 </div>
-                <div class="col-xl-3 col-lg-6 d-flex justify-content-center hex-div">
-                    <div class="hexagon1"></div>
-                    <div class="hexagon1-1"></div>
-                    <div class="hexagon1-icon4">
-                        <i class="fa fa-fire hexagon1-icon fa-2x" aria-hidden="true"></i>
+                <div class="col-xl-3 col-lg-6">
+                    <div class="hex-icon">
+                        <div class="hex-last-div">
+                            <div class="hexagon1"></div>
+                            <div class="hexagon1-1"></div>
+                        </div>
+                        <div class="conta-icons-div1">
+                            <i class="fa fa-check fa-2x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="cont-h4-p">
+                        <h4 class="d-flex justify-content-center">Flat Design</h4>
+                        <p class="cont-p"> lorem lpsum dolor sit amet cras vitae sodales ac nec prellentesque vivamus
+                            eget mauris fusce sit amet</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                    <div class="hex-icon">
+                        <div class="hex-last-div">
+                            <div class="hexagon1"></div>
+                            <div class="hexagon1-1"></div>
+                        </div>
+                        <div class="conta-icons-div1-1">
+                            <i class="fa fa-mobile fa-3x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="cont-h4-pa">
+                        <h4 class="d-flex justify-content-center">Flat Design</h4>
+                        <p class="cont-p"> lorem lpsum dolor sit amet cras vitae sodales ac nec prellentesque vivamus
+                            eget mauris fusce sit amet</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                    <div class="hex-icon">
+                        <div class="hex-last-div">
+                            <div class="hexagon1"></div>
+                            <div class="hexagon1-1"></div>
+                        </div>
+                        <div class="conta-icons-div1-2">
+                            <i class="fa fa-fire fa-2x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="cont-h4-p">
+                        <h4 class="d-flex justify-content-center">Flat Design</h4>
+                        <p class="cont-p"> lorem lpsum dolor sit amet cras vitae sodales ac nec prellentesque vivamus
+                            eget mauris fusce sit amet</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
     <section id="portfolio">
         <div>
             <h3 class="d-flex justify-content-center">portfolio</h3>
-            <ul class="nav nav-tabs d-flex justify-content-center" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#profile" role="tab" data-toggle="tab">profile</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#buzz" role="tab" data-toggle="tab">buzz</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#references" role="tab" data-toggle="tab">references</a>
-                </li>
-            </ul>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="tabbable-panel">
+                            <div class="tabbable-line">
+                                <ul class="nav nav-tabs d-flex justify-content-center">
+                                    <li class="active">
+                                        <a href="#tab_default_1" data-toggle="tab">Company or Individual </a>
+                                    </li>
+                                    <li>
+                                        <a href="#tab_default_2" data-toggle="tab">Report title & Category </a>
+                                    </li>
+                                    <li>
+                                        <a href="#tab_default_3" data-toggle="tab">Your Reports </a>
+                                    </li>
+                                    <li>
+                                        <a href="#tab_default_4" data-toggle="tab">Documents </a>
+                                    </li>
+                                    <li>
+                                        <a href="#tab_default_5" data-toggle="tab">T&C </a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="tab_default_1">
+                                        <p>Tab 1.</p>
+                                        <p>lorem</p>
+                                    </div>
+                                    <div class="tab-pane" id="tab_default_2">
+                                        <p>Tab 2.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="tab-pane" id="tab_default_3">
+                                        <p>Tab 3.</p>
+                                        <p>Consectetur deleniti quisquam natus eius commodi.</p>
+                                    </div>
+                                    <div class="tab-pane" id="tab_default_4">
+                                        <p>Tab 4.</p>
+                                        <p>Consectetur deleniti quisquam natus eius commodi.</p>
+                                    </div>
+                                    <div class="tab-pane" id="tab_default_5">
+                                        <p>Tab 5.</p>
+                                        <p>Consectetur deleniti quisquam natus eius commodi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-            <!-- Tab panes -->
-            <div class="tab-content d-flex justify-content-center">
-                <div role="tabpanel" class="tab-pane fade in active" id="profile">
-                    <div class="container-fluid">
-                        <div class="col-xl-6 col-sm-12">ghjhj</div>
-                        <div class="col-xl-6 col-sm-12">ghghfgdhjhj</div>
                     </div>
                 </div>
-                <div role="tabpanel" class="tab-pane fade" id="buzz">bbb</div>
-                <div role="tabpanel" class="tab-pane fade" id="references">ccc</div>
             </div>
         </div>
     </section>
