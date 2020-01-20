@@ -720,41 +720,30 @@
     margin: 120px 0 50px 0;
 }
 
-.hexagon-product {
-    position: relative;
-    width: 33px;
-    height: 19.05px;
-    background-color: #d7d7d7;
-    margin: 9.53px 0;
-    border-left: solid 2px #d7d7d7;
-    border-right: solid 2px #d7d7d7;
-    transform: rotate(30deg);
+
+.hex-our-product-left {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    background-color: silver;
+    height: 30px;
+    width: 35px;
+    margin-top: 4px;
 }
 
-.hexagon-product:before,
-.hexagon-product:after {
-    content: "";
-    position: absolute;
-    z-index: 1;
-    width: 23.33px;
-    height: 23.33px;
-    -webkit-transform: scaleY(0.5774) rotate(-45deg);
-    -ms-transform: scaleY(0.5774) rotate(-45deg);
-    transform: scaleY(0.5774) rotate(-45deg);
-    background-color: inherit;
-    left: 2.8327px;
+.hex-our-product-right {
+    margin-right: 10px;
 }
 
-.hexagon-product:before {
-    top: -11.6673px;
-    border-top: solid 2.8284px #d7d7d7;
-    border-right: solid 2.8284px #d7d7d7;
+.hex-our-product-chekit {
+    margin-top: 5px;
 }
 
-.hexagon-product:after {
-    bottom: -11.6673px;
-    border-bottom: solid 2.8284px #d7d7d7;
-    border-left: solid 2.8284px #d7d7d7;
+.col-xl-4-div-one:hover .col-xl-first-div > .our-product-features-p-one {
+    color: white;
+}
+
+.col-xl-4-div-one:hover > .col-xl-first-div > .hex-our-product-left {
+    color: red;
+    background-color: white;
 }
 
 .our-product-features-p-one {
@@ -986,6 +975,7 @@
 .carousel-indicators-one {
     padding: 2px;
 }
+
 /*.carousel-indicators-one .active {*/
 /*    color: red;*/
 /*}*/
@@ -996,41 +986,49 @@
     background-color: white;
     margin: 2px;
 }
-.carousel-item-paligon{
+
+.carousel-item-paligon {
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
-.our-clints-div-two{
+
+.our-clints-div-two {
     background: white;
     margin: 20px 20px;
     padding: 30px 0px;
-    box-shadow: inset 0px 0px 40px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 40px 0px rgba(0, 0, 0, 0.75);
 }
 
-.box-shadow-i{
+.box-shadow-i {
     margin: 10px 5px 0px 0px;
 }
-.fa-ravelry-p{
+
+.fa-ravelry-p {
     font-size: 22px;
     margin: 0 0 0 0;
 }
+
 /*clinets*/
 
 /*teamwork*/
-.our-teamwork-container{
-    padding-bottom:50px ;
+.our-teamwork-container {
+    padding-bottom: 50px;
 }
-.our-teamwork-title{
+
+.our-teamwork-title {
     padding: 35px 0px 20px 0px;
 }
-.our-teamwork-title-black{
+
+.our-teamwork-title-black {
     color: black;
     font-size: 35px;
 }
-.our-teamwork-title-red{
+
+.our-teamwork-title-red {
     color: red;
     font-size: 35px;
 }
-.our-teamwork-text{
+
+.our-teamwork-text {
     padding: 5% 5%;
     font-size: 16px;
     text-align: center;
@@ -1063,12 +1061,15 @@
 .our-teamwork-old-info:hover .overlay-our-teamwork {
     opacity: 1;
 }
-.our-teamwork-old-info:hover  .our-teamwork-info> .our-teamwork-name{
+
+.our-teamwork-old-info:hover .our-teamwork-info > .our-teamwork-name {
     color: red;
 }
+
 .our-teamwork-old-info:hover {
     border: 1px solid black;
 }
+
 .text-our-teamwork {
     color: white;
     font-size: 20px;
@@ -1080,29 +1081,34 @@
     transform: translate(-50%, -50%);
     text-align: center;
 }
-.our-teamwork-old-info{
+
+.our-teamwork-old-info {
     border: 1px solid #ededed;
 }
-.our-teamwork-info{
+
+.our-teamwork-info {
     margin: 20px 0;
 }
-.our-teamwork-name{
+
+.our-teamwork-name {
     text-align: center;
     color: black;
 }
-.our-teamwork-prafesion{
+
+.our-teamwork-prafesion {
     text-align: center;
     padding-bottom: 20px;
 }
 
-.our-teamwork-hex-one{
+.our-teamwork-hex-one {
     background-color: white;
     height: 35px;
     width: 40px;
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
     margin: 0 4px;
 }
-.our-teamwork-icon-color{
+
+.our-teamwork-icon-color {
     color: red;
     padding: 8px 0;
 }
@@ -1111,32 +1117,394 @@
 
 /*skills*/
 
-.our-skills-title{
+.our-skills-title {
     padding: 35px 0px 20px 0px;
 }
-.our-skills-title-black{
+
+.our-skills-title-black {
     color: black;
     font-size: 35px;
 }
-.our-skills-title-red{
+
+.our-skills-title-red {
     color: red;
     font-size: 35px;
 }
-.our-skills-text{
+
+.our-skills-text {
     font-size: 16px;
     text-align: center;
     margin: 35px 0;
 }
+
 .our-skills-befor-hexagonone-icon {
     margin: 70px 0px;
 }
 
-#our-services{
+#our-services {
     background-color: #272727;
+    padding-bottom: 50px;
 }
-.our-services-hex{
+
+.our-services-big-div {
+    padding: 15px 0;
+}
+
+.our-services-hex {
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-    background: white;
-    height: 20px;
-    width: 20px;
+    background: #a4a4a4;
+    height: 35px;
+    width: 40px;
 }
+
+.our-services-hex-icons {
+    margin: 9px 0px 0px 8px;
+}
+
+.our-services-hex-icons-html5 {
+    margin: 11px 0px 0px 11px;
+}
+
+.our-services-hex-icons-applic {
+    margin: 2px 0px 0px 13px;
+}
+
+.our-services-hex-icons-pencil {
+    margin: 9px 0px 0px 12px;
+}
+
+.our-services-hex-right-h4 {
+    color: white;
+    margin: 2px 0 0 20px;
+}
+
+.our-services-titles-divs {
+    padding: 15px 80px;
+}
+
+.our-services-p-text {
+    margin: 0px 80px 0 77px;
+    background-color: #343434;
+    padding: 15px 25px;
+    color: #989898;
+}
+
+.our-services-big-div:hover .our-services-titles-divs > .our-services-hex {
+    background: red;
+}
+
+.our-services-big-div:hover .our-services-titles-divs > .our-services-hex > .our-services-hex-icons {
+    color: white;
+}
+
+.our-services-big-div:hover .our-services-p-text {
+    background-color: #3b2329;
+    color: white;
+}
+
+/*bestseller*/
+#plans-beseller {
+    padding: 50px 0 50px 0px;
+}
+
+.plans-beseller-title-white {
+    color: black;
+    font-size: 35px;
+}
+
+.plans-beseller-title-red {
+    color: red;
+    font-size: 35px;
+}
+
+.plans-beseller-text {
+    font-size: 16px;
+    text-align: center;
+    margin: 35px 50px;
+}
+
+.plans-beseller-praise {
+    background-color: #f2f2f2;
+}
+
+.plans-besellercosts {
+    background-color: #262626;
+}
+
+.plans-beseller-costs-h4 {
+    color: white;
+    padding: 5px 0 0 0;
+}
+
+.costs-number {
+    font-size: 50px;
+    margin-bottom: 5px;
+!important;
+}
+
+.costs-year {
+    font-size: 15px;
+}
+
+.plans-beseller-info {
+    border: 1px solid #f2f2f2;
+    padding: 9px 0;
+}
+
+.button-order-now {
+    width: 180px;
+    border: none;
+    color: white;
+    background-color: #262626;
+}
+
+.plans-beseller-hover {
+    padding: 15px 0;
+}
+
+.plans-beseller-hover:hover .plans-beseller-praise {
+    background-color: red;
+}
+
+.plans-beseller-hover:hover .costs-number {
+    color: white;
+}
+
+.plans-beseller-hover:hover .button-order-now {
+    background-color: red;
+}
+
+/*bestseller*/
+
+/*twitter*/
+
+#twitter-section {
+    background-image: url(../img/bgimg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 120px 0;
+}
+
+.twitter-section-icon-style {
+    color: red;
+}
+
+.twitter-paragraph {
+    color: white;
+}
+
+.twitter-paragraph {
+    margin: 30px 0;
+}
+
+/*twitter*/
+.hexagon-red-poligon {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    background: red;
+    height: 30px;
+    width: 35px;
+}
+
+.hex-line-one-red-poligon {
+    border: 2px solid red;
+    width: 300px;
+    height: 1px;
+    margin-top: 12px;
+    margin-right: -1px;
+}
+
+.hex-line-two-red-poligon {
+    border: 2px solid red;
+    width: 300px;
+    height: 1px;
+    margin-top: 12px;
+    position: relative;
+    margin-left: -2px;
+}
+
+/*our-blog*/
+#our-blog {
+    padding: 35px 0;
+}
+
+.our-blog-title-white {
+    font-size: 35px;
+}
+
+.our-blog-title-red {
+    font-size: 35px;
+    color: red;
+}
+
+.our-blog-text {
+    font-size: 16px;
+    text-align: center;
+    margin: 35px 50px;
+}
+
+.our-blog-img-one {
+    background-color: #6bca7f;
+    width: 100%;
+    height: 90%;
+}
+
+.our-blog-img-one:hover {
+    opacity: 0.9;
+}
+
+.our-blog-img-two {
+    background-color: #6bca7f;
+}
+
+.our-blog-user-icon-user {
+    margin: 3px 5px;
+    color: #a2a2a2;
+}
+
+.our-blog-big-div {
+    padding: 20px 0 6px 0;
+}
+
+.our-blog-p {
+    padding: 20px 0;
+}
+
+.our-blog-button-div {
+    margin: 15px 0;
+}
+
+.our-blog-button {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+.our-blog-button:hover {
+    background-color: red;
+}
+
+.our-blog-down {
+    background-color: #f2f2f2;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.our-blog-down-icon {
+    color: #a2a2a2;
+}
+
+.our-blog-down-big {
+    padding: 20px 0;
+}
+
+/*our-blog*/
+
+/*.follow-creativia*/
+
+#follow-creativia {
+    background-image: url(../img/img.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 70px 0;
+}
+
+.follow-creativia-hex-icon {
+    padding: 4px 4px 12px 5px;
+    margin-right: 15px;
+}
+
+.follow-creativia-title {
+    font-size: 35px;
+    color: white;
+}
+
+.follow-creativia-title-white {
+    font-size: 35px;
+    color: white;
+}
+
+.follow-creativia-title-red {
+    color: red;
+}
+
+.follow-creativia-hex {
+    transform: rotate(30deg);
+}
+
+.follow-creativia-hex-hexiis {
+    position: relative;
+    width: 50px;
+    height: 28.87px;
+    background-color: rgba(255, 0, 0, 0);
+    margin: 14.43px 0;
+    border-left: solid 2px red;
+    border-right: solid 2px red;
+}
+
+.follow-creativia-hex-hexiis:before,
+.follow-creativia-hex-hexiis:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 35.36px;
+    height: 35.36px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: inherit;
+    left: 5.3223px;
+}
+
+.follow-creativia-hex-hexiis:before {
+    top: -17.6777px;
+    border-top: solid 2.8284px red;
+    border-right: solid 2.8284px red;
+}
+
+.follow-creativia-hex-hexiis:after {
+    bottom: -17.6777px;
+    border-bottom: solid 2.8284px red;
+    border-left: solid 2.8284px red;
+}
+
+.follow-creativia-icon {
+    margin: -40px 0 0 20px;
+    position: relative;
+}
+
+.follow-creativia-icon-style {
+    color: red;
+}
+
+.follow-creativia-hex-icon:hover .follow-creativia-hex > .follow-creativia-hex-hexiis {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.follow-creativia-hex-icon:hover .follow-creativia-icon > .follow-creativia-icon-style {
+    color: white;
+}
+
+/*.follow-creativia*/
+
+/*fine-use-here*/
+#fine-use-here{
+    padding: 30px 0;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px
+}
+
+
+
+
+
+
+
+
+
+

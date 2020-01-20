@@ -13,6 +13,8 @@ $(document).ready(function(){
 
 });
 
+
+
 // $('.nav-link-a').on('click', function(){
 //     $('.nav-link-a').removeClass('active-1');
 //     $(this).addClass('active-1');
