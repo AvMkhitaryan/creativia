@@ -10,9 +10,7 @@ $(document).ready(function(){
         $(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
     });
 
-
 });
-
 
 
 // $('.nav-link-a').on('click', function(){

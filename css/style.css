@@ -1141,6 +1141,54 @@
     margin: 70px 0px;
 }
 
+
+
+.counter {
+    display: flex;
+    justify-content: center;
+    /*cursor:pointer;*/
+    width:150px;
+    /*height:150px;*/
+    max-width:100%;
+    position:relative;
+    align-items:center;
+    font-size: calc(1em + 1vmin);
+    transition: height .2s ease-in-out;
+    background: #fff;
+    border-radius:50%;
+    /*box-shadow:0px 1px 10px 2px rgba(0,0,0,0.2);*/
+    margin:1em 0;
+    transform: rotate(110deg);
+}
+.percentage {
+    position:absolute;
+    text-align:center;
+    top:50%;
+    left:0;
+    right:0;
+    vertical-align:middle;
+    /*transform:translate3d(0,-50%,0);*/
+    transform: rotate(-110deg);
+    margin: -17px 0 0 0;
+}
+canvas {
+    position:absolute;
+    top:0;
+    left:0;
+}
+input {
+    width: 100px;
+}
+.btn-update{
+    display: none;
+}
+
+
+
+
+
+
+
 #our-services {
     background-color: #272727;
     padding-bottom: 50px;
@@ -1405,8 +1453,9 @@
 #follow-creativia {
     background-image: url(../img/img.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    padding: 70px 0;
+    background-size: 100%;
+    padding: 160px 0;
+    background-position: 0px -100px;
 }
 
 .follow-creativia-hex-icon {
@@ -1498,8 +1547,17 @@
     margin: 0px;
     padding: 0px
 }
+/*fine-use-here*/
 
-
+/*footer*/
+footer{
+    background-color: #262626;
+}
+.footer-div{
+    padding: 20px 0;
+    color: #515151;
+    font-size: 30px;
+}
 
 
 
