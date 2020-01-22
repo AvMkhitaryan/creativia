@@ -1,4 +1,3 @@
-// alert("dfgdfg");
 $(document).ready(function(){
     $(".collapse.show").each(function(){
         $(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus");
@@ -11,12 +10,3 @@ $(document).ready(function(){
     });
 
 });
-
-
-// $('.nav-link-a').on('click', function(){
-//     $('.nav-link-a').removeClass('active-1');
-//     $(this).addClass('active-1');
-// });
-//
-//
-// console.log(111);
