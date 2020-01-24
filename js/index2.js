@@ -4,20 +4,30 @@ $('.nav-item-hover').click(function () {
 });
 
 $('.card-header').click(function () {
-    $('.active-button').removeClass('active-button');
-    $(this).addClass('active-button');
-});
-
-// var timer=null;
-
-window.addEventListener("scroll", () => {
-    const scrollable = document.documentElement.scrollHeight = window.innerHeight;
-    const scrolled = window.scrollY;
-
-    if (Math.ceil(scrolled) === scrollable) {
-
+    // $('.card-header').removeClass('active-button');
+    if (!$(this).hasClass("active-button")){
+        $('.card-header').removeClass('active-button');
+        $(this).addClass('active-button');
+    }else {
+        $('.card-header').removeClass('active-button');
+        // $(this).addClass('active-button');
+        // $('.card-header').removeClass('active-button');
     }
+
+
+    // $('.card-header').removeClass('active-button');
+    // $(this).addClass('active-button');
 });
+
+
+// window.addEventListener("scroll", () => {
+//     const scrollable = document.documentElement.scrollHeight = window.innerHeight;
+//     const scrolled = window.scrollY;
+//
+//     if (Math.ceil(scrolled) === scrollable) {
+//
+//     }
+// });
 document.addEventListener("DOMContentLoaded", function () {
     var circleProgress = (function (selector) {
         var wrapper = document.querySelectorAll(selector);
