@@ -32,6 +32,8 @@
 .left-div {
     z-index: 15;
     background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: space-around;
 }
 
 .nav-link-a {
@@ -663,6 +665,10 @@
     .sec-col6-3 {
         padding: 13% 0%;
     }
+    .left-div{
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -675,6 +681,9 @@
     .sec-col6-3 {
         padding: 13% 18%;
     }
+    .left-div{
+
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -686,6 +695,9 @@
     }
     .sec-col6-3 {
         padding: 13% 6%;
+    }
+    .left-div{
+
     }
 }
 
