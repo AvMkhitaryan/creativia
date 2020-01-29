@@ -1262,13 +1262,14 @@
 
 .container-our-teamwork {
     position: relative;
-    /*width: 50%;*/
+    width: 253px;
+    height: 225px;
 }
 
 .image-our-teamwork {
     display: block;
-    width: 100%;
-    height: auto;
+    width: 253px;
+    height: 225px;
 }
 
 .overlay-our-teamwork {
@@ -1307,9 +1308,14 @@
     transform: translate(-50%, -50%);
     text-align: center;
 }
+.teamwork-old{
+    padding: 30px 0;
+}
 
 .our-teamwork-old-info {
     border: 1px solid #ededed;
+    width: 255px;
+    height: 347px
 }
 
 .our-teamwork-info {

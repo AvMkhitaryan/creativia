@@ -1,0 +1,24 @@
+{
+  "ourNteamworkObject": [
+    {
+      "image": "img/8888888.png",
+      "name": "BRUCE WAYNE",
+      "profession": "Webdesigner"
+    },
+    {
+      "image": "img/fizruk.jpg",
+      "name": "FIZRUK LCHRA",
+      "profession": "Drunk"
+    },
+    {
+      "image": "img/uzer1.jpg",
+      "name": "JANNET VASSA",
+      "profession": "Developer"
+    },
+    {
+      "image": "img/biznesmen.jpg",
+      "name": "KARGIN HAYKO",
+      "profession": "Businessman"
+    }
+  ]
+}
