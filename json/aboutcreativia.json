@@ -1,0 +1,24 @@
+{
+  "creativiaObject": [
+    {
+      "title": "FLAT DESIGN",
+      "icon": "fa-heart",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad culpa laborum quaerat totam voluptates."
+    },
+    {
+      "title": "FLAT DESIGN",
+      "icon": "fa-check",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad culpa laborum quaerat totam voluptates."
+    },
+    {
+      "title": "FLAT DESIGN",
+      "icon": "fa-tablet",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad culpa laborum quaerat totam voluptates."
+    },
+    {
+      "title": "FLAT DESIGN",
+      "icon": "fa-fire",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad culpa laborum quaerat totam voluptates."
+    }
+  ]
+}
